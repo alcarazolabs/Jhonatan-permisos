@@ -45,7 +45,7 @@
                                 @endcan
                                 </td>  
                                 <td> 
-                                @can('view', [$user, ['user.edit','userown.edit'] ])
+                                @can('update', [$user, ['user.edit','userown.edit'] ])
                                   <a class="btn btn-success" href="{{ route('user.edit',$user->id)}}">Edit</a> 
                                 @endcan
                                 </td>  
